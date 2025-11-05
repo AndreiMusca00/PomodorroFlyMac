@@ -45,6 +45,7 @@ struct MainView: View {
                         Label("Setări", systemImage: "slider.horizontal.3")
                     }
                 }
+                //modificare
                 ToolbarItem() {
                     Button {
                         Task { await handleLogout() }
